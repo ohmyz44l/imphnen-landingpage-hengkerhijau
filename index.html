@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMPHNEN-X.X.X</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <p class="logo">
+<pre>
+  /\_/\
+ ( o.o )
+  > ^ <
+</pre>
+                IMPHNEN.DEV <span>vX.X.X</span>
+            </p>
+            <ul class="nav-links">
+                <li><a href="">Beranda</a></li>
+                <li><a href="https://web.facebook.com/groups/1032515944638255?locale=id_ID">Komunitas [FB]</a></li>
+                <li><a href="https://www.instagram.com/imphnen.dev/">Ikuti Kami [IG]</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+            <div class="menu-button">
+                <span>☰</span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <h1>Ingin Menjadi Programmer Handal, Namun Enggan Ngoding</h1>
+                <p>
+                    Lahir dari para pesnuker handal yang lelah terhadap tutorial panjang dan error yang nggak
+                    jelas, kami hadir untuk cari cara paling malas untuk tetap nyaman scroll fesnuk dan menonton video cina dengan dubing andalannya.
+                </p>
+                <div class="hero-button">
+                    <a href="https://web.facebook.com/groups/1032515944638255?locale=id_ID"><span>></span> Gabung Sekarang</a>
+                    <a href="https://web.facebook.com/groups/1032515944638255?locale=id_ID">Lainnya</a>
+                </div>
+            </div>
+        </div>
+
+        <p><img src="./img/home-imphnen.jpg" alt="IMPHNEN Home" width="560" /></p>
+
+    </section>
+
+    <section class="section-1">
+        <div class="container">
+            <div class="sub-title">
+                <h2>Komunitas IMPHNEN</h2>
+                <p>Ayo gabung bersama komunitas malas ngoding</p>
+            </div>
+            <div class="section-1-col">
+                <img src="./img/potrait-imphnen.png" alt="Potrait IMPHNEN" width="640" />
+                <div class="card-container">
+                    <div class="card">
+                        <span>[f]</span>
+                        <h6>Facebook</h6>
+                        <span>170 jt Anggota</span>
+                        <p>
+                            Bergabunglah dengan grup Facebook kami untuk menjadi member penuh semangat mengkoding,
+                            sharing ide viral dan uptudate seputar fufufafa, dan artikel jurang tergelap lainnya.
+                        </p>
+                        <a href="https://web.facebook.com/groups/1032515944638255?locale=id_ID">Gabung</a>
+                    </div>
+
+                    <div class="card">
+                        <span>[ig]</span>
+                        <h6>Instagram</h6>
+                        <span>270rb Followers</span>
+                        <p>
+                            Ikuti Instagram kami untuk informasi terbaru seputar tehnologjia,
+                            meme tekolojia, dan artikel basah menarik lainnya.
+                        </p>
+                        <a href="https://www.instagram.com/imphnen.dev/">Ikuti</a>
+                    </div>
+
+                    <div class="card">
+                        <span>[d]</span>
+                        <h6>Discord</h6>
+                        <span>500rb Anggota</span>
+                        <p>
+                            Bergabunglah dengan grup Discord kami untuk tanya jawab,
+                            sharing pengalaman membadut dan animek, dan informasi keluh basah hingga serius.
+                        </p>
+                        <a href="https://discord.com/invite/W4XyRAmPSD">Gabung</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="sub-title">
+                <h2>Kenapa IMPHNEN ?</h2>
+                <p>Alasan kenapa harus join imphnen</p>
+            </div>
+            <div class="section-1-col reverse-row">
+                <img src="./img/meme-imphnen.jpg" alt="Meme IMPHNEN" width="640" />
+                <div class="card-container">
+                    <div class="card">
+                        <span>>></span>
+                        <h6>Belajar Tanpa Koding</h6>
+                        <p>
+                            Pelajari konsep programming dengan cara yang mudah dipahami
+                            tanpa harus menulis kode yang rumit.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span>[+]</span>
+                        <h6>Komunitas Suportif</h6>
+                        <p>
+                            Bergabunglah dengan komunitas programmer Indonesia yang siap
+                            membantu dan berbagi pengalaman.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span>[*]</span>
+                        <h6>Drama Gorengan Menarik</h6>
+                        <p>
+                            Ikuti perkembangan drama gorengan yang sedang panas, dikemas
+                            dengan analisis tajam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Dibuat oleh Hengker $GREENZ44L</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById("theme-toggle");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+            document.body.classList.toggle("light-mode");
+        });
+
+        // Default to dark-mode if no mode set
+        if (!document.body.classList.contains("dark-mode") && !document.body.classList.contains("light-mode")) {
+            document.body.classList.add("dark-mode");
+        }
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
